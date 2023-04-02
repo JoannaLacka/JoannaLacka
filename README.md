@@ -2,7 +2,7 @@
 ## Technical skills
 * ISTQB Foundation Level
 * Operating Systems: Windows, Linux (Ubuntu)
-* Version Control Systems: GIT
+* Version Control Systems: GIT, GitLab
 * Testing:
   * Postman
 * Other tools:
