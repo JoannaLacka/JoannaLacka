@@ -11,6 +11,7 @@
 ## Courses
 * [Zostań QA lub testerem oprogramowania od zera](https://www.udemy.com/course/zostan-qa-od-zera/?src=sac&kw=zostan+te)
 * [Postman od podstaw - testowanie REST API](https://www.udemy.com/course/postman-od-podstaw-testowanie-rest-api/?src=sac&kw=postman+od)
+* [Kurs SQL od podstaw | MySQL](https://www.udemy.com/course/kurs-sql-od-podstaw/)
 ## Soft skills
 * Teamwork
 * Excellent communication skills
