@@ -3,6 +3,7 @@
 * ISTQB Foundation Level
 * Operating Systems: Windows, Linux (Ubuntu)
 * Version Control Systems: GIT
+* Databases: MySQL
 * Testing:
   * Postman
   * HTML & CSS
