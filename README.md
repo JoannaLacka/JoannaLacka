@@ -32,7 +32,7 @@
 * [testerzy.pl](https://testerzy.pl/)
 * [testerka.pl](https://testerka.pl/)
 ## Groups for knowledge gathering
-[testowanie oprogramowania](https://www.facebook.com/groups/141683635854223)
-[Testowanie oprogramowania - Materiały|Porady](https://www.facebook.com/groups/testowanie)
-[Rafał Podraza - Testowanie Oprogramowania](https://www.facebook.com/technikaprogramowania)
+* [testowanie oprogramowania](https://www.facebook.com/groups/141683635854223)
+* [Testowanie oprogramowania - Materiały|Porady](https://www.facebook.com/groups/testowanie)
+* [Rafał Podraza - Testowanie Oprogramowania](https://www.facebook.com/technikaprogramowania)
 ## My test documentation
