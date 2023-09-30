@@ -7,9 +7,11 @@
   * Postman
   * HTML & CSS
   * JavaScript
+  * devTools
+* Other tools:
   * TestLink
   * Jira
-  * devTools
+  * Scrum
 ## Courses
 * [Zostań QA lub testerem oprogramowania od zera](https://www.udemy.com/course/zostan-qa-od-zera/?src=sac&kw=zostan+te)
 * [Postman od podstaw - testowanie REST API](https://www.udemy.com/course/postman-od-podstaw-testowanie-rest-api/?src=sac&kw=postman+od)
