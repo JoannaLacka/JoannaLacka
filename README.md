@@ -26,7 +26,7 @@
 ## Technical books read
 * [Certyfikowany tester ISTQB poziom podstawowy Adam Roman, Lucjan Stapp; Helion; Gliwice 2020, 2022](https://helion.pl/ksiazki/certyfikowany-tester-istqb-poziom-podstawowy-adam-roman-lucjan-stapp,ctispv.htm#format/d)
 ## Recommended sites
-* [W3Schools Online Web Tutorial](https://www.w3schools.com/)
+* [W3Schools Online Web Tutorials](https://www.w3schools.com/)
 * [technika programowania](https://www.youtube.com/@TechnikaProgramowania/about)
 * [remigiuszbednarczyk.pl](https://remigiuszbednarczyk.pl/)
 * [testerzy.pl](https://testerzy.pl/)
