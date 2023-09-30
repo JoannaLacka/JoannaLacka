@@ -37,3 +37,8 @@
 * [Testowanie oprogramowania - Materiały | Porady](https://www.facebook.com/groups/testowanie)
 * [Rafał Podraza - Testowanie Oprogramowania](https://www.facebook.com/technikaprogramowania)
 ## My test documentation
+* Bug Reports
+* Test Scenarios and Test Cases
+* Test Reports
+* Postman
+* JavaScript
