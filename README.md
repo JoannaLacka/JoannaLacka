@@ -42,4 +42,5 @@ I am a 31 years old quality controller with almost 4 years work experience. As w
 * Test Scenarios and Test Cases
 * Test Reports
 * Postman
-* [JavaScript](https://github.com/JoannaLacka/Portfolio/tree/main/JS%20lessons)(https://github.com/JoannaLacka/Portfolio/tree/main/JS%20zadanie)
+* [JavaScript basics lessons](https://github.com/JoannaLacka/Portfolio/tree/main/JS%20lessons)
+* [JavaScript exercise "shop list"](https://github.com/JoannaLacka/Portfolio/tree/main/JS%20zadanie)
