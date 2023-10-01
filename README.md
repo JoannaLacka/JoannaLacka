@@ -1,4 +1,5 @@
 ## About me
+I am a 31 years old quality controller with almost 4 years work experience. Working as a controller, I became a conscientious, inquisitive and a very attentive to details person. I would like to take my career forward - learn new things and use my work experience as a tester.
 ## Technical skills
 * ISTQB Foundation Level
 * Operating Systems: Windows, Linux (Ubuntu)
