@@ -1,0 +1,265 @@
+{
+	"info": {
+		"_postman_id": "5da86308-1570-4e90-8fc6-a18cca893138",
+		"name": "JSON Placeholder",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26294556"
+	},
+	"item": [
+		{
+			"name": "Get Posts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/posts?title_like=sunt",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"posts"
+					],
+					"query": [
+						{
+							"key": "title_like",
+							"value": "sunt"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Comments",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Verify response status code\", () => {\r",
+							"    //console.log(pm.response)\r",
+							"    pm.response.to.have.status(200)\r",
+							"    pm.expect(pm.response.code).to.eql(200)\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200, 404])\r",
+							"    pm.expect(pm.response.code).to.be.a(\"number\")\r",
+							"})\r",
+							"\r",
+							"pm.test(\"Verify response time\", () => {\r",
+							"    pm.expect(pm.response.responseTime).to.lessThan(300)\r",
+							"})\r",
+							"\r",
+							"pm.test(\"Verify response status\", () => {\r",
+							"    pm.expect(pm.response.status).to.eql(\"OK\")\r",
+							"    pm.expect(pm.response.status).to.be.a(\"string\")\r",
+							"})\r",
+							"\r",
+							"pm.test(\"Verify post id\", () => {\r",
+							"    const responseBody = pm.response.json()\r",
+							"    //console.log(responseBody[0])\r",
+							"    pm.expect(responseBody[0].id).to.eql(1)\r",
+							"})\r",
+							"\r",
+							"pm.test(\"Verify length of name\", () => {\r",
+							"    const responseBody = pm.response.json()\r",
+							"    pm.expect(responseBody[1].name).to.have.lengthOf(41)\r",
+							"})\r",
+							"\r",
+							"pm.test(\"Verify response email\", () => {\r",
+							"    const responseBody = pm.response.json()\r",
+							"    pm.expect(responseBody[1].email).to.include(\"@\")\r",
+							"})\r",
+							"\r",
+							"pm.test(\"Verify all response email\", () => {\r",
+							"    const responseBody = pm.response.json()\r",
+							"    responseBody.map(obiekt => {\r",
+							"        //console.log(obiekt.email)\r",
+							"        pm.expect(obiekt.email).to.include(\"@\")\r",
+							"    })\r",
+							"})\r",
+							"\r",
+							"pm.test(\"Verify content type response\", () => {\r",
+							"    pm.response.to.have.header(\"Content-Type\")\r",
+							"})\r",
+							"\r",
+							"pm.test(\"Verify connection response\", () => {\r",
+							"    pm.response.to.have.header(\"Connection\")\r",
+							"})\r",
+							"\r",
+							"pm.test(\"Verify content type value\", () => {\r",
+							"    //console.log(pm.response.headers.get(\"Content-Type\"))\r",
+							"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.eql(\"application/json; charset=utf-8\")\r",
+							"})"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/comments",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Post",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// pm.test(\"Global\", () => {\r",
+							"//     const expectedTitle = pm.globals.get(\"postTitle\")\r",
+							"//     const responseBody = pm.response.json()\r",
+							"//     pm.expect(responseBody.title).to.eql(expectedTitle)\r",
+							"// })\r",
+							"\r",
+							"// pm.test(\"Collecion\", () => {\r",
+							"//     const expectedUrl = pm.collectionVariables.get(\"baseUrl\")\r",
+							"//     console.log(expectedUrl)\r",
+							"// })\r",
+							"\r",
+							"// pm.test(\"Environments\", () => {\r",
+							"//     const expectedUsername = pm.environment.get(\"username\")\r",
+							"//     console.log(expectedUsername)\r",
+							"// })\r",
+							"\r",
+							"//pm.test(\"Set Global\", () => {\r",
+							"    //pm.globals.set(\"samochód\", \"Fiat\")\r",
+							"// })\r",
+							"\r",
+							"// pm.test(\"Unset Global\", () => {\r",
+							"//     pm.globals.unset(\"samochód\")\r",
+							"// })\r",
+							"\r",
+							"pm.test(\"Verify status code\", () => {\r",
+							"    pm.response.to.have.status(201)\r",
+							"})"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\": {{userId}},\r\n    \"id\": 2555,\r\n    \"title\": \"{{postTitle}}\",\r\n    \"body\": \"{{postBody}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/posts",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put User",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"function generatorEmail() {\r",
+							"    const randomNumbers = Math.floor(Math.random() * (10000000 - 1) + 1)\r",
+							"    const randomEmail = \"test\" + randomNumbers + \"@example.com\"\r",
+							"    pm.globals.set(\"randomEmail\", randomEmail)\r",
+							"}\r",
+							"\r",
+							"generatorEmail()"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n    \"id\": 2,\r\n    \"name\": \"Ervin Howell\",\r\n    \"username\": \"{{username}}\",\r\n    \"email\": \"{{randomEmail}}\",\r\n    \"address\": {\r\n      \"street\": \"Victor Plains\",\r\n      \"suite\": \"Suite 879\",\r\n      \"city\": \"Wisokyburgh\",\r\n      \"zipcode\": \"90566-7771\",\r\n      \"geo\": {\r\n        \"lat\": \"-43.9509\",\r\n        \"lng\": \"-34.4618\"\r\n      }\r\n    }\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/users/2",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"users",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE User",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/users/2",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"users",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://jsonplaceholder.typicode.com",
+			"type": "string"
+		}
+	]
+}
