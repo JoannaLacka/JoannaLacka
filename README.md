@@ -12,6 +12,7 @@ I am a 31 years old quality controller with almost 4 years work experience. As w
   * devTools
 * Other tools:
   * TestLink
+  * XRay
   * Jira
   * Trello
 ## Courses
