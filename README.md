@@ -18,7 +18,7 @@ I am a 31 years old quality controller with almost 4 years work experience. As w
   * Docker
   * Grafana
 * Testing tools:
-  * PickPick
+  * PicPick
   * ShareX
 ## Courses
 * [Testowanie Oprogramowania w praktyce | Bootcamp](https://www.udemy.com/course/testowanie-oprogramowania-w-praktyce-bootcamp/)
