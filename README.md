@@ -15,7 +15,13 @@ I am a 31 years old quality controller with almost 4 years work experience. As w
   * XRay
   * Jira
   * Trello
+  * Docker
+  * Grafana
+* Testing tools:
+  * PickPick
+  * ShareX
 ## Courses
+* [Testowanie Oprogramowania w praktyce | Bootcamp](https://www.udemy.com/course/testowanie-oprogramowania-w-praktyce-bootcamp/)
 * [Zostań QA lub testerem oprogramowania od zera](https://www.udemy.com/course/zostan-qa-od-zera/?src=sac&kw=zostan+te)
 * [Postman od podstaw - testowanie REST API](https://www.udemy.com/course/postman-od-podstaw-testowanie-rest-api/?src=sac&kw=postman+od)
 * [Kurs SQL od podstaw | MySQL](https://www.udemy.com/course/kurs-sql-od-podstaw/)
