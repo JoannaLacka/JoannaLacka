@@ -46,8 +46,7 @@ I am a 31 years old quality controller with almost 4 years work experience. As w
 * [Rafał Podraza - Testowanie Oprogramowania](https://www.facebook.com/technikaprogramowania)
 ## My test documentation
 * [Bug Reports](https://github.com/JoannaLacka/Portfolio/tree/main/Jira%20reports)
-* Test Scenarios and Test Cases
-* Test Reports
+* Test Reports (Test Plan, Test Cases)[]
 * [Postman](https://github.com/JoannaLacka/Portfolio/tree/main/Postman%20tests)
 * [JavaScript basics lessons](https://github.com/JoannaLacka/Portfolio/tree/main/JS%20lessons)
 * [JavaScript exercise "shop list"](https://github.com/JoannaLacka/Portfolio/tree/main/JS%20exercise)
