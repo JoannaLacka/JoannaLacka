@@ -9,6 +9,7 @@ I am a 31 years old quality controller with almost 4 years work experience. As w
   * Postman
   * HTML & CSS
   * JavaScript
+  * Python
   * devTools
 * Other tools:
   * TestLink
