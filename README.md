@@ -49,6 +49,6 @@ I am a 31 years old quality controller with almost 4 years work experience. As w
 * [Bug Reports](https://github.com/JoannaLacka/Portfolio/tree/main/Jira%20reports)
 * [Test Reports (Test Plan, Test Cases)](https://github.com/JoannaLacka/Portfolio/tree/main/Test%20plan%2C%20test%20cases)
 * [Postman](https://github.com/JoannaLacka/Portfolio/tree/main/Postman%20tests)
-* [Python basics lessons]()
+* [Python basics lessons](https://github.com/JoannaLacka/Portfolio/tree/main/Python%20lessons)
 * [JavaScript basics lessons](https://github.com/JoannaLacka/Portfolio/tree/main/JS%20lessons)
 * [JavaScript exercise "shop list"](https://github.com/JoannaLacka/Portfolio/tree/main/JS%20exercise)
