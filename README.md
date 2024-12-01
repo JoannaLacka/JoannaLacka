@@ -11,6 +11,7 @@ I am a 32 years old quality controller with almost 4 years work experience. As w
   * JavaScript
   * Python
   * devTools
+  * Jenkins Pipeline
 * Other tools:
   * TestLink
   * TestRail
