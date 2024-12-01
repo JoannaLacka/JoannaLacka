@@ -1,5 +1,5 @@
 ## About me
-I am a 32 years old software tester. As working as a tester and a quality controller, I became a conscientious, inquisitive and a very attentive to details person I would like to take my career forward - learn new things and use my work experience as a tester.
+I am a 32 years old junior software tester. As working as a tester and a quality controller, I became a conscientious, inquisitive and a very attentive to details person I would like to take my career forward - learn new things and use my work experience as a tester.
 ## Technical skills
 * ISTQB Foundation Level
 * Operating Systems: Windows, Linux (Ubuntu)
